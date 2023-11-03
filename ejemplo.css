@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana,sans-serif;
+}
+
+header,
+nav,
+article,
+section,
+footer{
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 8px;
+}
+
+.border-grey{
+    border: 1px solid grey;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 5px;
+}
+
+h1,
+h2,
+h3{
+    margin-left: 5px;
+}
+.register-form{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    padding: 5px
+}
+
+button{
+    margin-top: 10px;
+}
